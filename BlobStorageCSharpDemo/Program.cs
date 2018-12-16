@@ -8,7 +8,11 @@ namespace BlobStorageCSharpDemo
 {
     public static class Program
     {
+        // Create a folder and add some images to it 
         const string FolderPath = @"C:\blobstoragecsharp";
+
+        // this is the conn string found within your storage aggaount under blob storage access keys
+        // TODO - move this to azure keyvault in next steps
         private const string connstring = "<copy your storage account connection string here>";
 
         public static void Main()
